@@ -1,0 +1,81 @@
+.App {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button {
+  margin-left: 10px;
+  background-color: inherit;
+  color: inherit;
+  border: 1px solid;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+input {
+  margin-right: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  background-color: inherit;
+  color: inherit;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #ddd;
+}
+
+.dark button:hover {
+  background-color: #555;
+}
+
+input:focus {
+  outline: none;
+  border-color: #aaa;
+}
+
+.light {
+  background-color: white;
+  color: black;
+}
+
+.light button {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.light button:hover {
+  background-color: #333;
+  border: 1px solid #333;
+}
+
+.dark {
+  background-color: #333;
+  color: white;
+}
+
+.dark button {
+  color: white;
+  background-color: black;
+  border: 1px solid black;
+}
+
+.dark button:hover {
+  background-color: #555;
+  border: 1px solid #555;
+}
+
+.weather-time {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.weather-time p {
+  margin: 0;
+}
